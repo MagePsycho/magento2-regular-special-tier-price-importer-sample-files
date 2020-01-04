@@ -63,12 +63,14 @@ This sample file shows how to update all possible prices in Magento 2 at once wi
 
   *`sku`, `website_id` are two compulsory field for importing any types of pricing in Magento 2.*
  ## Price Value Format 
-This extension supports different price formats.
+This extension supports different formats for pricing.
+
+
 | Format | Description | Applied To |
-|-------|--------------|------------|
+| ------- | -------------- | ------------ |
 | +10   | Increase the current value by 10  | All Prices |
 | -10   | Decrease the current value by 10  | All Prices |
 | 10%   | 10% of the reference price value (except `tier_price` where X% represents the discount) | `msrp`, `special_price`, `tier_price` |
 | +10%  | Increase the current value by 10%  | All Prices |
 | -10%  | Decrease the current value by 10%  | All Prices |
-| x or X | Delete the value from the system  | All Prices (except `price`) |
+| x | Delete the value from the system  | All Prices (except `price`) |
