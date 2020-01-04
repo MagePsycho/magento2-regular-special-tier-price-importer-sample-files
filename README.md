@@ -60,7 +60,7 @@ This sample file shows how to update all possible prices in Magento 2 at once wi
 ![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/biMoNGTqVb.gif)
 
 <p style="text-align: center;">
-[Download All Prices Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/2.all_prices_sample.csv)   
+  <a href="https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/2.all_prices_sample.csv" title="Download All Prices Sample File">Download All Prices Sample File</a> 
 </p>  
 
   *`sku`, `website_id` are two compulsory field for importing any types of pricing in Magento 2.*
