@@ -1,5 +1,5 @@
 
-## Overview:  
+## Overview
 [Magento 2 Regular, Special & Tier Price Importer](https://www.magepsycho.com/extensions/magento-2/magento2-mass-regular-special-tier-group-price-importer.html) is the fastest import tool for bulk updating different prices like regular, cost, MSRP/MAP, special, tier & customer group price.  
   
 ![Magento 2 Regular, Special & Tier Price Importer Extension Backend Demo](http://g.recordit.co/9t1Dt1srQD.gif)  
@@ -22,43 +22,53 @@ And with the export pricing option, store admin can easily prepare the import fi
 ## Sample Files  
 These samples files are collected here so as to quickly demonstrate the functionality of [Magento 2 Regular, Special & Tier Price Importer](https://www.magepsycho.com/extensions/magento-2/magento2-mass-regular-special-tier-group-price-importer.html) Extension.  
   
-The samples files can be either downloaded from the extension settings(see below screenshot) or from Github repository(files under `/samples` folder).  
-![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/9t1Dt1srQD.gif)  
+The samples files can be either downloaded from the extension settings(see below screenshots) or from Github repository(files under `/samples` folder).  
+![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](https://raw.githubusercontent.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/master/docs/download-sample-file.png)  
   
 ### Validation  
 All pricing data must pass validation before it can be imported into the system, to ensure that the values are consistent with the system database.    
 If validation fails, the extension describes each error. This helps the store owner to quickly find and correct the problem in the CSV file.    
   
 This sample file demonstrates the possible validation performed by the extension.  
-[Download Validation Sample File](https://www.magepsycho.com/extensions/magento-2/magento2-mass-regular-special-tier-group-price-importer.html)  
+[Download Validation Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/1.validation_sample.csv)  
   
 ### Import Regular Price & Cost  
 This sample file shows how to update `price` & `cost`
- ![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/9t1Dt1srQD.gif)
- [Download Regular Price Sample File](https://www.magepsycho.com/extensions/magento-2/magento2-mass-regular-special-tier-group-price-importer.html)  
-  
-### Import Special Price with From & To Dates  
- This sample file shows how to update `special_price`, `special_from_date` & `special_to_date`
+ ![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/ALTkYjrFQu.gif)
  
-  [Download Special Price Sample File](https://www.magepsycho.com/extensions/magento-2/magento2-mass-regular-special-tier-group-price-importer.html)   
+ [Download Regular Price Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/3.regular_price_sample.csv)  
+  
+
+### Import Special Price with From & To Dates  
+This sample file shows how to update `special_price`, `special_from_date` & `special_to_date`
+
+ ![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/QeJFtXKMA2.gif)
+ 
+  [Download Special Price Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/4.special_price_sample.csv)   
+  
 ### Import Tier Price/Customer Group Price  
  This sample file shows how to update `tier_price:*`
  
-  [Download Tier Price Sample File](https://www.magepsycho.com/extensions/magento-2/magento2-mass-regular-special-tier-group-price-importer.html)   
-*'Group Price' in Magento 2 is the special case of Tier Price (with tier qty equals to 1).*
-### Import All Prices (Regular, Cost, MSRP/MAP, Tier/Customer Group Price)  at Once
- This sample file shows how to update all possible prices in Magento 2 at once with just a single CSV file.
+ ![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/UvCGAMUson.gif)
+ 
+  [Download Tier Price Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/5.tier_price_sample.csv)   
 
-[Download All Prices Sample File](https://www.magepsycho.com/extensions/magento-2/magento2-mass-regular-special-tier-group-price-importer.html)   
+*'Group Price' in Magento 2 is the special case of Tier Price (with tier qty equals to 1).*
+
+### Import All Prices (Regular, Cost, MSRP/MAP, Tier/Customer Group Price)  at Once
+This sample file shows how to update all possible prices in Magento 2 at once with just a single CSV file.
+![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/biMoNGTqVb.gif)
+
+[Download All Prices Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/2.all_prices_sample.csv)   
 
   *`sku`, `website_id` are two compulsory field for importing any types of pricing in Magento 2.*
  ## Price Value Format 
 This extension supports different price formats.
-| Format | Description                                                                                         | Applied To                      |
-|-------|-----------------------------------------------------------------------------------------------------|---------------------------------|
-| +10   | Increase the current value by 10                                                                    | All Prices                      |
-| -10   | Decrease the current value by 10                                                                    | All Prices                      |
+| Format | Description | Applied To |
+|-------|--------------|------------|
+| +10   | Increase the current value by 10  | All Prices |
+| -10   | Decrease the current value by 10  | All Prices |
 | 10%   | 10% of the reference price value (except `tier_price` where X% represents the discount) | `msrp`, `special_price`, `tier_price` |
-| +10%  | Increase the current value by 10%                                                                   | All Prices                      |
-| -10%  | Decrease the current value by 10%                                                                   | All Prices                      |
-| x     | Delete the value from the system                                                                    | All Prices (except `price`)       |
+| +10%  | Increase the current value by 10%  | All Prices |
+| -10%  | Decrease the current value by 10%  | All Prices |
+| x or X | Delete the value from the system  | All Prices (except `price`) |
