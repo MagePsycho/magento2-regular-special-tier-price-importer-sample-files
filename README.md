@@ -30,28 +30,36 @@ All pricing data must pass validation before it can be imported into the system,
 If validation fails, the extension describes each error. This helps the store owner to quickly find and correct the problem in the CSV file.    
   
 This sample file demonstrates the possible validation performed by the extension.  
-[Download Validation Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/1.validation_sample.csv)  
+
+<p align="center">
+  <a href="https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/1.validation_sample.csv" title="Download Validation Sample File">Download Validation Sample File</a> 
+</p>
   
 ### Import Regular Price & Cost  
 This sample file shows how to update `price` & `cost`
  ![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/ALTkYjrFQu.gif)
  
- [Download Regular Price Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/3.regular_price_sample.csv)  
-  
+<p align="center">
+  <a href="https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/3.regular_price_sample.csv" title="Download Regular Price Sample File">Download Regular Price Sample File</a> 
+</p>
 
 ### Import Special Price with From & To Dates  
 This sample file shows how to update `special_price`, `special_from_date` & `special_to_date`
 
  ![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/QeJFtXKMA2.gif)
  
-  [Download Special Price Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/4.special_price_sample.csv)   
+<p align="center">
+  <a href="https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/4.special_price_sample.csv" title="Download Special Price Sample File">Download Special Price Sample File</a> 
+</p>   
   
 ### Import Tier Price/Customer Group Price  
  This sample file shows how to update `tier_price:*`
  
  ![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/UvCGAMUson.gif)
  
-  [Download Tier Price Sample File](https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/5.tier_price_sample.csv)   
+<p align="center">
+  <a href="https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/5.tier_price_sample.csv" title="Download Tier Price Sample File">Download Tier Price Sample File</a> 
+</p>  
 
 *'Group Price' in Magento 2 is the special case of Tier Price (with tier qty equals to 1).*
 
@@ -59,7 +67,7 @@ This sample file shows how to update `special_price`, `special_from_date` & `spe
 This sample file shows how to update all possible prices in Magento 2 at once with just a single CSV file.
 ![Magento 2 Regular, Special & Tier Price Importer Extension Sample Files](http://g.recordit.co/biMoNGTqVb.gif)
 
-<p style="text-align: center;">
+<p align="center">
   <a href="https://github.com/MagePsycho/magento2-regular-special-tier-price-importer-sample-files/blob/master/samples/2.all_prices_sample.csv" title="Download All Prices Sample File">Download All Prices Sample File</a> 
 </p>  
 
