@@ -17,6 +17,7 @@ And with the export pricing option, store admin can easily prepare the import fi
 * Support for different types of price rounding (whole number to the psychological pricing)  
 * Price values can be increased(`+`), decreased(`-`) by a fixed amount value or percentage  
 * Price values can also be set as a certain percentage(`%`) of some reference attribute value  
+* Ability to import prices via command line interface (CLI)
 * Option to export the different prices which makes import file preparation much easier  
   
 ## Sample Files  
@@ -78,6 +79,7 @@ This extension supports different formats for pricing.
 
 | Format | Description | Applied To |
 | ------- | -------------- | ------------ |
+| 10   | 	Fixed amount value  | All Prices |
 | +10   | Increase the current value by 10  | All Prices |
 | -10   | Decrease the current value by 10  | All Prices |
 | 10%   | 10% of the reference price value (except `tier_price` where X% represents the discount) | `msrp`, `special_price`, `tier_price` |
